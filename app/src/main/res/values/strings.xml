@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Arduino RGB control</string>
+    <string name="mConnectionStatusBluetoothDisableText">Waiting for bluetooth...</string>
+    <string name="mConnectButtonBluetoothDisableText">Turn BT on</string>
+    <string name="toastBluetoothEnableText">Bluetooth enabled</string>
+    <string name="toastBluetoothUnavailableText">Device doesn\'t have bluetooth adapter. Application closed.</string>
+    <string name="mConnectButtonConnectText">Connect</string>
+    <string name="mConnectionStatusWaitText">Waiting for connection...</string>
+    <string name="mConnectButtonEnableBluetoothText">Turn BT on</string>
+    <string name="toastBluetoothDisabledText">Bluetooth is disabled</string>
+    <string name="mConnectionStatusConnectedText">Connected</string>
+    <string name="mConnectButtonDisconnectText">Disconnect</string>
+    <string name="mConnectionStatusDisconnectedText">Disconnected</string>
+    <string name="toastConnectionFailedText">Connection failed</string>
+    <string name="selectDeviceDialogConnectText">Connect</string>
+    <string name="selectDeviceDialogCancelText">Cancel</string>
+    <string name="mTurnOnButtonOffText">OFF</string>
+    <string name="mTurnOnButtonOnText">ON</string>
+    <string name="toastClickBackAgainText">Please click BACK again to exit</string>
+    <string name="mRandomColorButtonText">RANDOM COLOR</string>
+    <string name="mRenderModeFlowerRendererText">FLOWER</string>
+    <string name="mRenderModeCircleRendererText">CIRCLE</string>
+    <string name="selectDeviceDialogSelectdeviceText">Select device</string>
+    <string name="mConnectionStatusFailedText">Failed</string>
+</resources>
