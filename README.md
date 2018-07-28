@@ -1,4 +1,4 @@
-# ArduinoRGBcontrol
+# Arduino RGB control
 Arduino RGB control - android application to control wirelessly RGB diod connected to Arduino. 
 
 Minimum required version of android is 5.0 Lollipop (API level 21).
