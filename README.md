@@ -4,7 +4,7 @@ Arduino RGB control - android application to control wirelessly RGB diod connect
 Minimum required version of android is 5.0 Lollipop (API level 21).
 <p>Tested on LG G2 (1080 x 1920, 5.2 inch, 420 dpi) with android 7.1.2 Noughat Resurection Remix Rom (API level 25) and Arduino UNO with HC-05 bluetooth module.</br>
 
-<p>Simple example program ready to upload it to Arduino is available to download from repository files. </br>
+<p>Simple example program ready to upload to Arduino is available to download from repository files. </br>
 
 
 ![Demo](https://github.com/divid3d/ArduinoRGBcontrol/blob/master/app-gif.gif?raw=true)
