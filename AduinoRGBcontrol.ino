@@ -1,7 +1,7 @@
-#define RED 9         //Rgb diod pins.
+#define RED 9         //Rgb diode pins.
 #define GREEN 10
 #define BLUE 11
-#define COMMON_ANODE  //Undef if you have rgb diod with common cathode 
+#define COMMON_ANODE  //Undef if you have rgb diode with common cathode 
 
 #define BTpin 2       //HC-05 state pin.
 
@@ -39,7 +39,7 @@ void setup() {                              //Outputs and interrupts setup.
 
  attachInterrupt(digitalPinToInterrupt(2), btConnected, RISING);
  attachInterrupt(digitalPinToInterrupt(2),btDisconnected,FALLING);
- Serial.begin(115200);                      //Serial communication init.
+ Serial.begin(115200);                                                //Serial communication init.
 }
 
 void loop() {
@@ -48,8 +48,8 @@ void loop() {
   while(Serial.available()){
   Serial.readBytes(dataBuffer,4);
   
-  if(dataBuffer[3]== 0){                                               //buffer triggering.
-  setColor((int)dataBuffer[0],(int)dataBuffer[1],(int)dataBuffer[2]);  //seting rgb diod color.Red, green and blue values are in range 0-255.
+  if(dataBuffer[3]== 0){                                               //Buffer triggering.
+  setColor((int)dataBuffer[0],(int)dataBuffer[1],(int)dataBuffer[2]);  //Setting rgb diode color. Red, green and blue values are in range 0-255.
   Serial.print("R: ");                                                 //Serial data print.
   Serial.print((int)dataBuffer[0]);
   Serial.print(" G: ");
@@ -59,7 +59,7 @@ void loop() {
   Serial.print("\n");
   }
   
-  dataBuffer[0]=0;                                                     //cleaning buffer
+  dataBuffer[0]=0;                                                     //Cleaning buffer
   dataBuffer[1]=0;
   dataBuffer[2]=0;
   dataBuffer[3]=1;
