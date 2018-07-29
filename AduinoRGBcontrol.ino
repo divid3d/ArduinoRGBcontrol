@@ -25,7 +25,6 @@ Serial.println("Bluetooth connected.");     //Interrupt for bluetooth connected 
 
 void btDisconnected(){
 Serial.println("Bluetooth disconnected.");  //Interrupt for bluetooth disconnected state.
-setColor(255,255,255);
 }
 
 void setup() {                              //Outputs and interrupts setup.
