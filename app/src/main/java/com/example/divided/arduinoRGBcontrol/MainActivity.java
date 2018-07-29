@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         byteData[0] = convertUint8ToByte(RGB[0]);
         byteData[1] = convertUint8ToByte(RGB[1]);
         byteData[2] = convertUint8ToByte(RGB[2]);
-        byteData[2] = convertUint8ToByte(0); // Special value to trigger Arduino buffer
+        byteData[3] = convertUint8ToByte(0); // Special value to trigger Arduino buffer
 
         bt.send(byteData, false);
 
